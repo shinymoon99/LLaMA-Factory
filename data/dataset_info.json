@@ -392,5 +392,15 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "ECI": {
+    "file_name":"ECI.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system",
+      "history": "history"
+    }
   }
 }
