@@ -398,9 +398,7 @@
     "columns": {
       "prompt": "instruction",
       "query": "input",
-      "response": "output",
-      "system": "system",
-      "history": "history"
+      "response": "output"
     }
   }
 }
