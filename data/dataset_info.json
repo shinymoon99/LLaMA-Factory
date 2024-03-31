@@ -400,5 +400,13 @@
       "query": "input",
       "response": "output"
     }
+  },
+  "ECI2": {
+    "file_name":"ECI2.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
   }
 }
