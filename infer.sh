@@ -20,7 +20,7 @@ accelerate launch --config_file examples/accelerate/single_config.yaml src/train
     --stage sft \
     --do_predict \
     --model_name_or_path /root/autodl-tmp/llama2-7b_hf \
-    --dataset ECI \
+    --dataset ECI_sum \
     --template default \
     --finetuning_type lora \
     --output_dir  ./output/ECIhardprompt \
