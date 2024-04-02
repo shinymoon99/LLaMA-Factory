@@ -15,6 +15,6 @@ p = load_json_line_by_line("./output\ECIhardprompt\generated_predictions1.jsonl"
 sum_data = []
 for i,d in enumerate(data):
     if i==100:break
-    sum_data.append({"instruction":instruct1,"input":"","output":d["output"],"history":[d["instruction"]+d["input"],p[i]["predict"]]})
+    sum_data.append({"instruction":instruct1,"input":"","output":d["output"],"history":[[d["instruction"]+d["input"],p[i]["predict"]]]})
 with open("./data/ECI_sum.json","w",encoding="utf-8") as f1:
     json.dump(sum_data,f1)
