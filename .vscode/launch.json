@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--stage", "sft",
+                "--do_predict",
+                "--model_name_or_path", "/root/autodl-tmp/Llama-2-7b-chat-hf",
+                "--dataset", "ECI",
+                "--template", "default",
+                "--finetuning_type", "lora",
+             "--output_dir", " ./output/ECIhardprompt",
+      //          "--per_device_train_eval_size", "1",
+                "--max_samples","100", 
+                "--predict_with_generate",
+                "--fp16"
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            }
+        }
+    ]
+}

@@ -19,7 +19,7 @@ accelerate launch --config_file examples/accelerate/single_config.yaml src/train
     --ddp_timeout 180000000 \
     --stage sft \
     --do_predict \
-    --model_name_or_path /root/autodl-tmp/Llama-2-chat-7b-hf \
+    --model_name_or_path /root/autodl-tmp/Llama-2-7b-chat-hf \
     --dataset ECI_sum \
     --template default \
     --finetuning_type lora \
