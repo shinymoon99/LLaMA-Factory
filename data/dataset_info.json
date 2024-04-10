@@ -425,6 +425,14 @@
       "response": "output"
     }
   },
+  "ECIRM": {
+    "file_name":"ECIRM.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "ECI_sum": {
     "file_name":"ECI_sum.json",
     "columns": {
