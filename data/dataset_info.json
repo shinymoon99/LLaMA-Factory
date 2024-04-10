@@ -409,6 +409,14 @@
       "response": "output"
     }
   },
+  "ECI3": {
+    "file_name":"ECI3.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "ECI_sum": {
     "file_name":"ECI_sum.json",
     "columns": {
