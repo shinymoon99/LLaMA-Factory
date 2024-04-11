@@ -1,0 +1,9 @@
+Class,Precision,Recall,F1-score,Support
+0,9.52,7.32,8.28,82
+1,88.73,21.57,34.71,839
+2,9.45,82.28,16.95,79
+3,0.00,0.00,0.00,0
+4,75.97,25.20,31.14,
+0,N/A,N/A,N/A,Support: 839
+1,N/A,N/A,N/A,Support: 79
+-1,N/A,N/A,N/A,Support: 82

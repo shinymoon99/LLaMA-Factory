@@ -433,6 +433,14 @@
       "response": "output"
     }
   },
+  "ECIb1000": {
+    "file_name":"ECIbalance1000.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "ECI_sum": {
     "file_name":"ECI_sum.json",
     "columns": {
