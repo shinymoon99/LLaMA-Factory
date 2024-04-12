@@ -441,6 +441,14 @@
       "response": "output"
     }
   },
+  "ECIb1000-FE": {
+    "file_name":"ECIb1000-FE.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "ECI_sum": {
     "file_name":"ECI_sum.json",
     "columns": {
